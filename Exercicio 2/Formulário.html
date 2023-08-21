@@ -6,125 +6,114 @@
 </head>
 
 <body bgcolor="#DCDCDC" link=#00000>
-    <font face="Times New Roman" color="#228B22"size=6>
-        <b>Informações de Contato:</b>
-    </font>
 
-    <br><br><br>
-
-    <a href="file:///C:/Users/gabriel.365012/OneDrive%20-%20SATC%20-%20Associação%20Beneficente%20da%20Indústria%20Carbonífera%20de%20Santa%20Catarina/Informática/Front-End/Web/Exercicio%201/PgCursoTec.html">Página Principal</a><br><br>
+    <a
+        href="file:///C:/Users/gabriel.365012/OneDrive%20-%20SATC%20-%20Associação%20Beneficente%20da%20Indústria%20Carbonífera%20de%20Santa%20Catarina/Informática/Front-End/Web/Exercicio%201/PgCursoTec.html">Página
+        Principal</a>
     <form name="Contrato" method="post" action="">
         <table>
+            <td width="100">
+                <font face="Times New Roman" color="#228B22" size=6>
+                    <b>Informações de Contato:</b>
+                </font>
+            </td>
             <tr>
-                <td>Nome:</td>
-                <input type="text" name="nome" id="nome" size="53" required>
+                <td width="100">Nome:</td>
+                <td width="100"><input type="text" name="nome" id="nome" size="50" required></td>
             </tr>
-        <br><br>
             <tr>
-                Endereço:
-                <input type="text" name="endereço" id="endereço" size="50">
+                <td width="100">Endereço:</td>
+                <td width="100"><input type="text" name="endereço" id="endereço" size="50"></td>
             </tr>
-        <br><br>
             <tr>
-                Cidade:
-                <input type="text" name="cidade" id="cidade">
-                Bairro:
-                <input type="text" name="bairro" id="bairro" size="19">
+                <td width="100">CEP:</td>
+                <td width="100"><input type="number" name="CEP" id="CEP"></td>
             </tr>
-        <br><br>
             <tr>
-                <select>
-                    <option value="">Estado</option>
-                    <option value="PR">Paraná</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                </select>
-                <select>
-                    <option value="">Pais</option>
-                    <option value="BR">Brasil</option>
-                    <option value="AR">Argentina</option>
-                    <option value="EUA">EUA</option>
-                    <option value="RU">Reino Unido</option>
-                    <option value="JP">Japão</option>
-                </select>
+                <td width="100"><select>
+                        <option value="">Estado</option>
+                        <option value="PR">Paraná</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                    </select></td>
+                <td width="100"><select>
+                        <option value="">Pais</option>
+                        <option value="BR">Brasil</option>
+                        <option value="AR">Argentina</option>
+                        <option value="EUA">EUA</option>
+                        <option value="RU">Reino Unido</option>
+                        <option value="JP">Japão</option>
+                    </select></td>
             </tr>
-        <br><br>
             <tr>
-                CEP:
-                <input type="number" name="CEP" id="CEP">
+                <td width="100">Cidade:
+                <td><input type="text" name="cidade" id="cidade"></td>
+                <td width="100">Bairro:
+                <td><input type="text" name="bairro" id="bairro"></td>
             </tr>
-        <br><br>
             <tr>
-                Telefone Residencial:
-                <input type="number" name="telR" id="telR">
-                <br><br>
-                Telefone Celular:
-                <input type="number" name="telC" id="telC">
+                <td width="150">Telefone Residencial:</td>
+                <td width="100"><input type="number" name="telR" id="telR"></td>
+                <td width="150">Telefone Celular:</td>
+                <td width="100"><input type="number" name="telC" id="telC"></td>
             </tr>
-        <br><br>
             <tr>
-                Email:
-                <input type="text" name="email" id="email" size="50">
+                <td width="100">Email:</td>
+                <td width="100"><input type="text" name="email" id="email" size="50"></td>
             </tr>
-        <br><br>
             <tr>
-                Sexo:
-                <input type="radio" name="sexo" id="Masc">Masculino
-                <input type="radio" name="sexo" id="Fem">Feminino
-                <input type="radio" name="sexo" id="Outro">Outro
+                <td width="100">Sexo:</td>
+                <td width="100"><input type="radio" name="sexo" id="Masc">Masculino</td>
+                <td width="100"><input type="radio" name="sexo" id="Fem">Feminino</td>
+                <td width="100"><input type="radio" name="sexo" id="Outro">Outro</td>
             </tr>
-        <br><br>
             <tr>
-                Estado Civil:
-                <input type="radio" name="civil" id="Sol">Solteiro
-                <input type="radio" name="civil" id="Cas">Casado
-                <input type="radio" name="civil" id="Viu">Viuvo
-                <input type="radio" name="civil" id="Div">Divorciado
+                <td width="100">Estado Civil:</td>
+                <td width="50"><input type="radio" name="civil" id="Sol">Solteiro</td>
+                <td width="50"><input type="radio" name="civil" id="Cas">Casado</td>
+                <td width="50"><input type="radio" name="civil" id="Viu">Viuvo</td>
+                <td width="100"><input type="radio" name="civil" id="Div">Divorciado</td>
             </tr>
-        <br><br>
+            </tr>
             <tr>
-                Data de Nascimento:
-                <input type="Date" name="civil" id="Sol">
+                <td width="100">Data de Nascimento:</td>
+                <td width="100"><input type="date" name="data"></td>
             </tr>
-        </table>
-
-        <br><br><br>
-
-            <font face="Times New Roman" color="#228B22" size=6>
-                <b>Escolaridade:</b>
-            </font>
-
-        <br><br><br>
-            
+            <td width="100">
+                <font face="Times New Roman" color="#228B22" size=6>
+                    <b>Escolaridade:</b>
+                </font>
+            </td>
             <table>
                 <tr>
-                    Nivel de Educação:
-                    <input type="checkbox" name="educacao" id="educacao">Ensino Fundamental
-                    <input type="checkbox" name="educacao" id="educacao">Técnico
-                    <input type="checkbox" name="educacao" id="educacao">Faculdade
+                    <td width="100">Nivel de Educação:</td>
+                    <td width="100"><input type="checkbox" name="educacao" id="educacao">Ensino Fundamental</td>
+                    <td width="100"><input type="checkbox" name="educacao" id="educacao">Técnico</td>
+                    <td width="100"><input type="checkbox" name="educacao" id="educacao">Faculdade</td>
                 </tr>
-            <br><br>
                 <tr>
-                    <select>
-                        <option value="">Curso Escolhido</option>
-                        <option value="INF">Informática</option>
-                        <option value="ADM">Administração</option>
-                        <option value="ELT">Eletrotécnica</option>
-                        <option value="MEC">Mecatrôncia</option>
-                        <option value="DSG">Desing Gráfico</option>
-                    </select>
+                    <td width="100">
+                        <select>
+                            <option value="">Curso Escolhido</option>
+                            <option value="INF">Informática</option>
+                            <option value="ADM">Administração</option>
+                            <option value="ELT">Eletrotécnica</option>
+                            <option value="MEC">Mecatrôncia</option>
+                            <option value="DSG">Desing Gráfico</option>
+                        </select>
+                    </td>
                 </tr>
-            <br><br>
                 <tr>
-                    periodo:
-                    <input type="radio" name="periodo" id="periodo">Matutino
-                    <input type="radio" name="periodo" id="periodo">Vespertino
-                    <input type="radio" name="periodo" id="periodo">Noturno
-                    <br><br>
-                    <input type="reset" name="limpar" id="limpar" value="Limpar">
-                    <input type="submit" name="enviar" id="enviar" value="enviar">
+                    <td width="100">
+                        periodo:
+                        <input type="radio" name="periodo" id="periodo">Matutino
+                        <input type="radio" name="periodo" id="periodo">Vespertino
+                        <input type="radio" name="periodo" id="periodo">Noturno
+                    </td>
+                    <td width="100"><input type="reset" name="limpar" id="limpar" value="Limpar"></td>
+                    <td width="100"><input type="submit" name="enviar" id="enviar" value="enviar"></td>
                 </tr>
         </table>
     </form>
