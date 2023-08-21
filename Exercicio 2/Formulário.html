@@ -7,57 +7,89 @@
 
 <body bgcolor="#FFFFF" link=#DCDCDC>
     <font face="Times New Roman" size=6>
-        <b>Formulário de Contrato:</b>
+        <b>Informações de Contato:</b>
     </font>
     <br><br><br>
     <a href="file:///C:/Users/gabriel.365012/OneDrive%20-%20SATC%20-%20Associação%20Beneficente%20da%20Indústria%20Carbonífera%20de%20Santa%20Catarina/Informática/Front-End/Web/Exercicio%201/PgCursoTec.html">Página Principal</a><br><br>
     <form name="Contrato" method="post" action="">
-        Nome: <input type="text" name="nome" id="nome" size="30" required>
+        Nome:
+        <input type="text" name="nome" id="nome" size="50" required>
         <br><br>
-        Telefone: <input type="number" name="Telefone" id="tel" size="30" maxlength="11">
+        Endereço:
+        <input type="text" name="endereço" id="endereço" size="50">
         <br><br>
         Cidade:
-        <input type="radio" name="Cidade" id="Cidade" value="CR">Criciúma
-        <input type="radio" name="Cidade" id="Cidade" value="AR">Araranguá
-        <input type="radio" name="Cidade" id="Cidade" value="TB">Tubarão
-        <br><br>
-        Curso:
-        <input type="checkbox" name="curso" id="curso" value="INF">Informática
-        <input type="checkbox" name="curso" id="curso" value="ADM">Administração
-        <input type="checkbox" name="curso" id="curso" value="ELT">Eletrotécnica
+        <input type="text" name="cidade" id="cidade">
+        Bairro:
+        <input type="text" name="bairro" id="bairro">
         <br><br>
         <select>
-            <option value="">Selecione</option>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espirito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PB">Paraíba</option>
+            <option value="">Estado</option>
             <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PI">Piauí</option>
             <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
             <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
             <option value="SC">Santa Catarina</option>
             <option value="SP">São Paulo</option>
-            <option value="SE">Sergipe</option>
-            <option value="TO">Tocantins</option>
+        </select>
+        <select>
+            <option value="">Pais</option>
+            <option value="BR">Brasil</option>
+            <option value="AR">Argentina</option>
+            <option value="EUA">EUA</option>
+            <option value="RU">Reino Unido</option>
+            <option value="JP">Japão</option>
         </select>
         <br><br>
-        Comentarios:<br> <textarea name="comentario" id="comentario" rows="10" cols="50"></textarea>
+        CEP:
+        <input type="number" name="CEP" id="CEP">
+        <br><br>
+        Telefone Residencial:
+        <input type="number" name="Telefone" id="telR" size="30" maxlength="11">
+        Telefone Celular:
+        <input type="number" name="Telefone" id="telC" size="30" maxlength="11">
+        <br><br>
+        Email:
+        <input type="text" name="email" id="email">
+        <br><br>
+        Sexo:
+        <input type="radio" name="sexo" id="Masc">Masculino
+        <input type="radio" name="sexo" id="Fem">Feminino
+        <input type="radio" name="sexo" id="Outro">Outro
+        <br><br>
+        Estado Civil:
+        <input type="radio" name="civil" id="Sol">Solteiro
+        <input type="radio" name="civil" id="Cas">Casado
+        <input type="radio" name="civil" id="Viu">Viuvo
+        <input type="radio" name="civil" id="Div">Divorciado
+        <br><br>
+        Data de Nascimento:
+        <input type="Date" name="civil" id="Sol">
+        <br><br><br>
+
+        <body bgcolor="#FFFFF" link=#DCDCDC>
+            <font face="Times New Roman" size=6>
+                <b>Escolaridade:</b>
+            </font>
+        <br><br><br>
+        
+        Nivel de Educação:
+        <input type="checkbox" name="educacao" id="educacao">Ensino Fundamental
+        <input type="checkbox" name="educacao" id="educacao">Técnico
+        <input type="checkbox" name="educacao" id="educacao">Faculdade
+        <br><br>
+        <select>
+            <option value="">Curso Escolhido</option>
+            <option value="INF">Informática</option>
+            <option value="ADM">Administração</option>
+            <option value="ELT">Eletrotécnica</option>
+            <option value="MEC">Mecatrôncia</option>
+            <option value="DSG">Desing Gráfico</option>
+        </select>
+        <br><br>
+        periodo:
+        <input type="radio" name="periodo" id="periodo">Matutino
+        <input type="radio" name="periodo" id="periodo">Vespertino
+        <input type="radio" name="periodo" id="periodo">Noturno
         <br><br>
         <input type="reset" name="limpar" id="limpar" value="Limpar">
         <input type="submit" name="enviar" id="enviar" value="enviar">
