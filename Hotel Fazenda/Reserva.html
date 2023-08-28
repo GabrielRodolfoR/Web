@@ -18,24 +18,25 @@
             <td width="100" align="center"><a href="Ambientes.html">Ambientes</a></td>
             <td width="100" align="center"><a href="Atividades.html">Atividades</a></td>
         </table>
+
         <br><br><br>
+
         <font face="Times New Roman" color="#27408B" size="6">
             Venha fazer sua rezerva!!
             <hr color="#27408B" width="500" align="middle">
         </font>
+
         <br><br>
 
-
-        <td width="100">
-            <font face="Times New Roman" color="#27408B" size=6>
-                <b>Informações Para rezerva:</b>
-            </font>
-            <table>
-        </td>
-        <tr>
-            <td width="100" align="center">Nome:</td>
-            <td width="100"><input type="text" name="nome" id="nome" size="50" required></td>
-        </tr>
+        <font face="Times New Roman" color="#27408B" size=6>
+            Informações Do Cliente:
+        </font>
+        <table>
+            </td>
+            <tr>
+                <td width="100" align="center">Nome:</td>
+                <td width="100"><input type="text" name="nome" id="nome" size="50" required></td>
+            </tr>
         </table>
         <table>
             <tr>
@@ -94,21 +95,77 @@
                 <td width="100" align="center">Telefone:</td>
                 <td width="100"><input type="number" name="tel" id="tel"></td>
             </tr>
+
+        </table>
+        <font face="Times New Roman" color="#27408B" size=6>
+            Informações rezerva:
+        </font>
+        <table>
             <tr>
-                <td width="100" align="center">Nº adultos:</td>
-                <td width="100"><input type="number" name="adul" id="adul"></td>
-            </tr>
-            <tr>
-                <td width="100" align="center">Nº Crianças:</td>
-                <td width="100"><input type="number" name="cri" id="cri"></td>
-            </tr>
-            <tr>
-                <td width="100" align="center">Data de Chegada:</td>
-                <td width="100"><input type="date" name="data"></td>
+                <td width="100" align="center">Data de Entrada:</td>
+                <td width="100"><input type="date" name="entrada"></td>
             </tr>
             <tr>
                 <td width="100" align="center">Data de Saida:</td>
-                <td width="100"><input type="date" name="data"></td>
+                <td width="100"><input type="date" name="saida"></td>
+            </tr>
+            <tr>
+                <td width="100" align="center">Horario Entrada</td>
+                <td width="100"><input type="time" name="quarto"></td>
+            </tr>
+            <tr>
+                <td width="100" align="center">Horario Saida</td>
+                <td width="100"><input type="time" name="quarto"></td>
+            </tr>
+            <tr>
+                <td width="100" align="center">Quantidade de Quartos</td>
+                <td width="100"><input type="number" name="quarto"></td>
+            </tr>
+            <tr>
+                <td width="100" align="center">Quantidade de Quartos</td>
+                <td width="100"><input type="number" name="quarto"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <td width="100" align="center">Quantidade de quartos</td>
+            <td>
+                <select>
+                    <option value="">Selecione</option>
+                    <option value="q1">1</option>
+                    <option value="q2">2</option>
+                    <option value="q3">3</option>
+                    <option value="q4">4</option>
+                    <option value="q5">5</option>
+                </select>
+            </td>
+            </tr>
+            <td width="100" align="center">Quantidade de Pessoas</td>
+            <td>
+            <select>
+                <option value="">Selecione</option>
+                <option value="n1">1</option>
+                <option value="n2">2</option>
+                <option value="n3">3</option>
+                <option value="n4">4</option>
+                <option value="n5">5</option>
+            </select>
+        </td>
+            </tr>
+        </tr>
+        <td width="100" align="center">Tipo de quarto</td>
+        <td>
+        <select>
+            <option value="">Selecione</option>
+            <option value="cas">Casal</option>
+            <option value="sui">Suite Casal</option>
+            <option value="fam">Familia</option>
+        </select>
+    </td>
+        </tr>
+            <tr>
+                <td width="100"><input type="reset" name="limpar" id="limpar" value="Limpar"></td>
+                <td width="100"><input type="submit" name="enviar" id="enviar" value="enviar"></td>
             </tr>
         </table>
     </center>
