@@ -1,9 +1,58 @@
+body{
+    color: #8B4513;
+    font: 20px 'Times New Roman'
+}
+
+
 #top{
     width: 100%;
     height: 150px;
     text-align: center;
-    background-color: #00ffb3;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20;
-    align-tracks: center;
+    background-color: #FFB6C1;
+}
+
+
+#middle{
+    width: 100%;
+    height: 600px;
+    background-color: #FFF5E1;
+}
+#middlehome{
+    width: 100%;
+    height: 1550px;
+    background-color: #FFF5E1;
+}
+
+#imagens{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+#banner {
+    background-color: #FFF5E1;
+    text-align: center;
+    padding: 20px;
+    color: #8B4513;
+}
+
+
+#historia {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#contato {
+    background-color: #FFF5E1;
+    text-align: center;
+    padding: 20px;
+    color: #8B4513;
+}
+
+
+#horario {
+    padding: 20px;
+    text-align: center;
 }
